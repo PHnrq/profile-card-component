@@ -14,13 +14,13 @@ body{
     font-weight: 700;
     
     background-color: var(--dark-cyan);
-    background-image: url(/images/bg-pattern-top.svg),url(/images/bg-pattern-bottom.svg);
+    background-image: url(images/bg-pattern-top.svg),url(images/bg-pattern-bottom.svg);
     background-repeat: no-repeat;
     background-position:-300px -500px, 700px 300px;
 }
 
 .background-profile-photo{
-    background-image: url(/images/bg-pattern-card.svg);
+    background-image: url(images/bg-pattern-card.svg);
 
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -99,12 +99,12 @@ body{
         font-weight: 700;
         
         background-color: var(--dark-cyan);
-        background-image: url(/images/bg-pattern-top.svg),url(/images/bg-pattern-bottom.svg);
+        background-image: url(images/bg-pattern-top.svg),url(images/bg-pattern-bottom.svg);
         background-repeat: no-repeat;
         background-position:-700px -500px, 200px 300px;
     }
     .background-profile-photo{
-        background-image: url(/images/bg-pattern-card.svg);
+        background-image: url(images/bg-pattern-card.svg);
     
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
