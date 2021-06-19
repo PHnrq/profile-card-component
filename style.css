@@ -14,6 +14,9 @@ body{
     font-weight: 700;
     
     background-color: var(--dark-cyan);
+    background-image: url(/images/bg-pattern-top.svg),url(/images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-position:-300px -500px, 700px 300px;
 }
 
 .background-profile-photo{
@@ -21,7 +24,7 @@ body{
 
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    width: 400px;
+    width: 350px;
     height: 100px;
     margin-left: auto;
     margin-right: auto;
@@ -34,6 +37,7 @@ body{
     margin-right: auto;
     border-radius: 50%;
     margin-top: -50px;
+    border: solid 5px white;
 }
 
 .name-info p{
@@ -42,11 +46,11 @@ body{
 }
 
 .name-info{
-    width: 400px;
+    width: 350px;
     height: 140px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -66px;
+    margin-top: -74px;
     background-color: white;
 }
 
@@ -55,7 +59,7 @@ body{
     text-align: center;
     justify-content: center;
 
-    width: 400px;
+    width: 350px;
     height: 120px;
     margin-left: auto;
     margin-right: auto;
@@ -84,15 +88,21 @@ body{
 
 .attribution{
     margin-top: 50px;
-    color:black;
 }
 
-.attribution a{
-    text-decoration:underline;
-    color: var(--dark-grayish-blue);
-}
 
 @media screen and (max-width:430px) {
+    
+    body{
+        font-family: 'Kumbh Sans', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        
+        background-color: var(--dark-cyan);
+        background-image: url(/images/bg-pattern-top.svg),url(/images/bg-pattern-bottom.svg);
+        background-repeat: no-repeat;
+        background-position:-700px -500px, 200px 300px;
+    }
     .background-profile-photo{
         background-image: url(/images/bg-pattern-card.svg);
     
@@ -110,7 +120,7 @@ body{
         height: 140px;
         margin-left: auto;
         margin-right: auto;
-        margin-top: -66px;
+        margin-top: -74px;;
         background-color: white;
     }
 
