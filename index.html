@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
   
@@ -17,33 +19,40 @@
 </head>
 <body>
   <main>
-    <img class="profile-photo" src="images\image-victor.jpg" alt="">
+
+    <div class="background-profile-photo"></div>
     
-    <p class="name">
-      Victor Crest 26<br>
-      London
-    </p>
+    <img class="profile-photo" src="images/image-victor.jpg" alt="Profile Photo">
+    
+    <div class="name-info">
+      <p>
+        Victor Crest <span class="differentTextColor age">26</span><br>
+        <span class="differentTextColor city">London</span>
+      </p>
+    </div>
 
     <div class="stats">
       <p>
         80K <br>
-        Followers
+        <span class="differentTextColor differentFontSize">Followers</span>
       </p>
       <p>
         803K <br>
-        Likes
+        <span class="differentTextColor differentFontSize">Likes</span>
       </p>
       <p>
         1.4K <br>
-        Photos
+        <span class="differentTextColor differentFontSize">Photos</span>
       </p>
     </div>
 
 
   </main>
+  
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div>
+  
 </body>
 </html>

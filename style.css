@@ -1,18 +1,132 @@
+:root{
+    /*Primary color*/
+    --dark-cyan: hsl(185, 75%, 39%);
+    --very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --dark-grayish-blue: hsl(227, 10%, 46%);
 
-.profile-photo{
-    border-radius: 50%;
-    margin-left: 627px;
-    margin-top: 200px;
-    
+    /*Neutral color*/
+    --dark-gray: hsl(0, 0%, 59%);
 }
 
-.name{
-    text-align: center;
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
     
+    background-color: var(--dark-cyan);
+}
+
+.background-profile-photo{
+    background-image: url(/images/bg-pattern-card.svg);
+
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 400px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.profile-photo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    margin-top: -50px;
+}
+
+.name-info p{
+    text-align: center;
+    padding: 70px;
+}
+
+.name-info{
+    width: 400px;
+    height: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -66px;
+    background-color: white;
 }
 
 .stats{
     display: flex;
     text-align: center;
     justify-content: center;
+
+    width: 400px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+    border-top: var(--dark-gray) 1px solid ;
+    background-color: white;
+}
+.stats p{
+    padding: 30px;
+}
+
+.differentTextColor{
+    font-weight: 400;
+    color: var(--dark-grayish-blue);
+}
+
+.differentFontSize{
+    font-size: 13px;
+}
+
+.city{
+    font-size: 16px;
+}
+
+.attribution{
+    margin-top: 50px;
+    color:black;
+}
+
+.attribution a{
+    text-decoration:underline;
+    color: var(--dark-grayish-blue);
+}
+
+@media screen and (max-width:430px) {
+    .background-profile-photo{
+        background-image: url(/images/bg-pattern-card.svg);
+    
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        width: 300px;
+        height: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+    }
+
+    .name-info{
+        width: 300px;
+        height: 140px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -66px;
+        background-color: white;
+    }
+
+    .stats{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    
+        width: 300px;
+        height: 120px;
+        margin-left: auto;
+        margin-right: auto;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    
+        border-top: var(--dark-gray) 1px solid ;
+        background-color: white;
+    }
 }
